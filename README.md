@@ -18,7 +18,7 @@ Projet réalisé dans le cadre du cours « IA : Claude Coding M1/M2 » (IAE).
 
 1. Ouvrir **claude.ai/code** et choisir ce dépôt.
 2. Taper `/analyze` (première séance) ou « on reprend mon workflow » (séances suivantes).
-3. À la fin de l'étape : **Create PR**, puis **Merge** sur GitHub.
+3. Rien d'autre à faire : le travail est enregistré et fusionné automatiquement dans `main`.
 
 ---
 Les skills dans `.claude/skills/` proviennent du plugin open source

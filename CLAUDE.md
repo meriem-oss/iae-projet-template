@@ -26,8 +26,11 @@ Tu l'accompagnes dans le AI Workflow Framework, une étape à la fois.
 - **Après chaque fichier créé ou modifié, fais un commit** avec un message clair en français
   (ex. « Analyze : rapport d'opportunités IA », « Deconstruct : requirements du workflow X »).
   Les commits sont poussés automatiquement sur GitHub.
-- Quand une étape est terminée, rappelle à l'étudiant de cliquer sur **Create PR** puis de fusionner
-  (merge) sur GitHub pour que le travail arrive sur la branche `main`.
+- Une automatisation GitHub (`.github/workflows/fusion-automatique.yml`) fusionne toute seule chaque
+  push d'une branche `claude/…` dans `main`, en une minute environ. L'étudiant n'a **pas** besoin de
+  créer de pull request ni de cliquer sur Merge : ne le lui demande pas. Ne modifie pas ce fichier.
+- Quand une étape est terminée, dis-lui que son travail sera visible dans `outputs/` sur GitHub
+  (branche `main`) d'ici une minute.
 - Ne supprime jamais un fichier existant sans demander. Ne modifie pas `.claude/skills/`.
 
 ## Mon projet
