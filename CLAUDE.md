@@ -31,7 +31,16 @@ Tu l'accompagnes dans le AI Workflow Framework, une étape à la fois.
   créer de pull request ni de cliquer sur Merge : ne le lui demande pas. Ne modifie pas ce fichier.
 - Quand une étape est terminée, dis-lui que son travail sera visible dans `outputs/` sur GitHub
   (branche `main`) d'ici une minute.
-- Ne supprime jamais un fichier existant sans demander. Ne modifie pas `.claude/skills/`.
+- Ne supprime jamais un fichier existant sans demander.
+- Ne modifie pas les 15 skills du cours déjà présents dans `.claude/skills/` (analyze, deconstruct, design, build…).
+
+## Skills créés par l'étudiant (étape Build)
+- Un skill construit à l'étape Build va dans **`.claude/skills/<nom-du-skill>/SKILL.md`** (+ ses fichiers
+  de référence), pour que l'étudiant puisse le lancer en tapant `/<nom-du-skill>`.
+- Dans `outputs/<workflow>/`, garde seulement un court fichier `build-notes.md` qui indique où est le skill
+  et ce qui a été construit.
+- S'il n'y a pas d'outil de création de skill dans la session, écris les fichiers toi-même, sans le signaler
+  comme un problème.
 
 ## Mon projet
 <!-- À compléter : prénom et nom, entreprise / cas étudié, problème choisi. -->
